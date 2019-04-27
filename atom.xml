@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>JiaJia_Dev的博客</title>
+  
+  <subtitle>不要因为路途遥远，就忘记为什么而出发.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://jiajiadev.github.io/"/>
+  <updated>2019-04-27T14:46:12.893Z</updated>
+  <id>https://jiajiadev.github.io/</id>
+  
+  <author>
+    <name>JiaJia_Dev</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>深入了解Android开发环境</title>
+    <link href="https://jiajiadev.github.io/post/Android%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    <id>https://jiajiadev.github.io/post/Android开发环境搭建/</id>
+    <published>2017-01-02T14:33:21.000Z</published>
+    <updated>2019-04-27T14:46:12.893Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>工欲善其事，必先利其器。在Android中所谓的“利器”有两个：一个是早期的ADT-bundle（Eclipse+ADT+Sdk)，但是目前Google已经不再维护；另一个则是Android Studio。现在Github上大多数项目都已经迁移到Androd Studio。这篇主要目的是梳理一下这两种开发环境的搭建过程及对目录结构进行分析。</p><h2 id="Adt-bundle"><a href="#Adt-bundle" class="headerlink" title="Adt-bundle"></a>Adt-bundle</h2><p>ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，只需安装好Jdk即可开始开发，推荐初学者下载ADT Bundle，不用再折腾开发环境。</p><h2 id="Android-Studio"><a href="#Android-Studio" class="headerlink" title="Android Studio"></a>Android Studio</h2><p><strong>注意：安全起见，下载后，有标SHA值或者MD5的还是确认一下比较好。</strong></p><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p>1、<a href="http://www.androiddevtools.cn/" target="_blank" rel="noopener">http://www.androiddevtools.cn/</a><br>2、<a href="http://www.android-studio.org/" target="_blank" rel="noopener">http://www.android-studio.org/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;工欲善其事，必先利其器。在Android中所谓的“利器”有两个：一个是早期的ADT-bundle（Eclipse+ADT+Sdk)，但是目前
+      
+    
+    </summary>
+    
+      <category term="Android" scheme="https://jiajiadev.github.io/categories/Android/"/>
+    
+    
+      <category term="IDE" scheme="https://jiajiadev.github.io/tags/IDE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android ROM --开篇</title>
+    <link href="https://jiajiadev.github.io/post/Android%E5%A4%A7%E7%BA%B2/"/>
+    <id>https://jiajiadev.github.io/post/Android大纲/</id>
+    <published>2016-11-09T14:43:21.000Z</published>
+    <updated>2019-04-27T14:44:13.206Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>前半年被抓去搞SDN了，搞得非常忙，最近回归Android，对Android还是相当有感情的。屌丝的情怀，哈哈。闲下来发现，自己的技术积累跟Android的碎片化一样，总是东一点，西一点，不能形成一个系统。有些东西感觉会了，但是细想下去，发现还是有些不明白的地方。而且以前的技术积累都是给自己看的，不懂的地方也就没太在意，反正自己不懂也没人知道。痛定思痛，决心改变这一现状。万剑归宗，自废武功！从头来！</p><h2 id="大纲"><a href="#大纲" class="headerlink" title="大纲"></a>大纲</h2><p>怕自己忘了方向，写个大纲<br><img id="andorid_rom" src="/uploads/Android ROM.png" alt="android rom 计划"></p><h2 id="文章格式"><a href="#文章格式" class="headerlink" title="文章格式"></a>文章格式</h2><p>按照一定的格式写文章，比较省力，有规律可循，思路比较不容易跑偏！<br>1、背景：交代背景<br>2、流程图：如果有流程的话，比如某些机制，或者流程<br>3、功能或步骤<br>4、总结<br>5、参考文献</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;前半年被抓去搞SDN了，搞得非常忙，最近回归Android，对Android还是相当有感情的。屌丝的情怀，哈哈。闲下来发现，自己的技术积累跟
+      
+    
+    </summary>
+    
+      <category term="Android" scheme="https://jiajiadev.github.io/categories/Android/"/>
+    
+    
+      <category term="Android" scheme="https://jiajiadev.github.io/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://jiajiadev.github.io/post/hello-world/"/>
+    <id>https://jiajiadev.github.io/post/hello-world/</id>
+    <published>2016-08-10T14:33:21.000Z</published>
+    <updated>2019-04-27T14:46:55.539Z</updated>
+    
+    <content type="html"><![CDATA[<p>有段时间没怎么操作hexo有点忘记了，命令都有点忘了，留着，备忘。</p><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;有段时间没怎么操作hexo有点忘记了，命令都有点忘了，留着，备忘。&lt;/p&gt;
+&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very
+      
+    
+    </summary>
+    
+      <category term="网站" scheme="https://jiajiadev.github.io/categories/%E7%BD%91%E7%AB%99/"/>
+    
+    
+      <category term="引言" scheme="https://jiajiadev.github.io/tags/%E5%BC%95%E8%A8%80/"/>
+    
+  </entry>
+  
+</feed>
