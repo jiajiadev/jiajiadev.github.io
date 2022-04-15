@@ -1,0 +1,49 @@
+{
+	// Place your 学习笔记 工作区 snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"create meta json snippet": {
+		"scope": "json",
+		"prefix": "meta",
+		"body": [
+			"\"${TM_FILENAME}.md\": {",
+				"\t\"title\": \"${TM_FILENAME}\",",
+				"\t\"date\": \"${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}\",",
+				"\t\"tags\": [",
+					"\t\t\"未分类\"",
+				"\t],",
+				"\t\"categories\": [",
+					"\t\t\"未分类\"",
+				"\t],",
+				"\t\"cover\": \"/${TM_DIRECTORY}/i/test.jpg\",",
+				"\t\"created\":  \"${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}\",",
+				"\t\"updated\":  \"${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}\"",
+			"}",
+		],
+		"description":"创建meta json文件"
+		
+	},
+	"insert update time":{
+		"scope": "json",
+		"prefix": "update",
+		"body": [
+			"\"updated\":  \"${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}\"",
+		],
+		"description":"插入更新日期"
+	}
+
+}
